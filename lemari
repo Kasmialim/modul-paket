@@ -1,0 +1,17 @@
+import alim.RumusMtk
+
+def main():
+	p = 10
+	l = 9
+	t = 11
+
+	volume = alim.RumusMtk.volumeLemari(p, l, t)
+
+	print("volume lemari")
+	print("Panjang sisi\t: ", p)
+	print("Lebar sisi\t: ", l)
+	print("Tinggi sisi\t: ", t)
+	print("Volume\t\t: ", volume)
+
+if __name__ == "__main__":
+	main()
