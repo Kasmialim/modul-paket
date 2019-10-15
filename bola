@@ -1,0 +1,13 @@
+import alim.RumusMtk
+
+def main():
+	r = 2
+
+	luasBola = alim.RumusMtk.luaspermukaanBola(r)
+
+	print("luas permukaan")
+	print("jarijari\t: ", r)
+	print("LuasPermukaan\t\t: ", luasBola)
+
+if __name__ == "__main__":
+	main()
