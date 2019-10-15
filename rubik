@@ -1,0 +1,13 @@
+import alim.RumusMtk
+
+def main():
+	s = 24
+
+	luasRubik = alim.RumusMtk.luaspermukaanRubik(s)
+
+	print("luas permukaan")
+	print("sisi\t: ", s)
+	print("LuasPermukaan\t\t: ", luasRubik)
+
+if __name__ == "__main__":
+	main()
