@@ -1,0 +1,11 @@
+import math
+
+def volumeLemari(p, l, t):
+	return p * l * t
+
+def luaspermukaanRubik(s):
+	return 6 * s
+
+def luaspermukaanBola(r):
+	return 4 * math.pi * r * r
+
